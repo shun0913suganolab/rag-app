@@ -1,8 +1,13 @@
 import React from 'react';
+import ChatUI from './ChatUI';
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  return (
+    <div>
+      <ChatUI />
+    </div>
+  );
 }
 
 export default App;
+
